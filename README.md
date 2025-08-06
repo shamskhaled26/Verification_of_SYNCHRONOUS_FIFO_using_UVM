@@ -8,7 +8,7 @@ This project delivers a complete **UVM-based verification environment** for a pa
 
 - **RTL Design**: A configurable synchronous FIFO (customizable data width and depth) with proper pointer logic and status/flag signals (`empty`, `full`, `overflow`, `underflow`).
 - **UVM Verification**: A comprehensive testbench built using **Universal Verification Methodology (UVM)**, including `driver`, `monitor`, `agent`, `scoreboard`, `sequence_item`, `sequencer`, `environment`, and `tests`.
-- **Test Types**: Directed and constrained-random tests to stress corner cases: simultaneous write/read, full and empty states, pointer wrap-around, overflow, underflow, and reset behavior :contentReference[oaicite:1]{index=1}.
+- **Test Types**: Directed and constrained-random tests to stress corner cases: simultaneous write/read, full and empty states, pointer wrap-around, overflow, underflow, and reset behavior 
 
 ---
 
@@ -19,7 +19,7 @@ This project delivers a complete **UVM-based verification environment** for a pa
 - Parameterized `WIDTH` and `DEPTH`  
 - Write (`wr_en`, `data_in`) and read (`rd_en`, `data_out`) ports  
 - Control flags: `full`, `empty`, `overflow`, `underflow`  
-- Correct handling of simultaneous read/write and pointer wrap-around:contentReference[oaicite:2]{index=2}  
+- Correct handling of simultaneous read/write and pointer wrap-around
 
 ### UVM Verification  
 - Transactions generated and randomized via sequence items  
@@ -28,8 +28,7 @@ This project delivers a complete **UVM-based verification environment** for a pa
   - Reset behavior (pointers and flags)  
   - No writes when full or no reads when empty  
   - Correct pointer cycling and FIFO contents  
-- Coverage ensures all control states and combinations are exercised :contentReference[oaicite:3]{index=3}  
-
+- Coverage ensures all control states and combinations are exercised 
 ---
 
 ## 🏁 Getting Started
