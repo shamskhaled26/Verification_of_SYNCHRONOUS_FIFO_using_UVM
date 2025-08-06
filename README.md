@@ -12,25 +12,6 @@ This project delivers a complete **UVM-based verification environment** for a pa
 
 ---
 
-## 📂 Repository Structure
-Verification_of_SYNCHRONOUS_FIFO_using_UVM/
-├── design/
-│ └── sync_fifo.sv # Core FIFO RTL (parameterized)
-│
-├── uvm_env/
-│ ├── fifo_interface.sv # Interface to connect DUT signals
-│ ├── fifo_transaction.sv # Sequence items and data transactions
-│ ├── fifo_sequence.sv # Stimulus sequences (write/read scenarios)
-│ ├── fifo_driver.sv # Applies stimulus to DUT
-│ ├── fifo_monitor.sv # Observes DUT and collects transactions
-│ ├── fifo_scoreboard.sv # Compares DUT output to reference model
-│ ├── fifo_coverage.sv # Functional coverage collection
-│ ├── fifo_agent.sv # Bundles driver and monitor
-│ ├── fifo_environment.sv # Top-level environment
-│ ├── fifo_test.sv # UVM test class instantiation
-│ └── fifo_sva.sv # SystemVerilog Assertions for protocol checks
-│
-└── README.md # This documentation---
 
 ## 🔧 Key Features
 
