@@ -45,8 +45,8 @@ vlog +incdir+design +incdir+uvm_env design/sync_fifo.sv uvm_env/*.sv
 vsim -uvm +UVM_TESTNAME=fifo_test work.top
 
 # Check reports:
-# - UVM report summary
-# - Coverage report
+ - UVM report summary
+ - Coverage report
 
 
 🧪 Verification Strategy
